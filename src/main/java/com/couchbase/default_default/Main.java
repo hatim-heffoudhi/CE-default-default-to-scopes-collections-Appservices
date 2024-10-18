@@ -28,6 +28,7 @@ public class Main {
                 .setContinuous(true)
                 .setAuthenticator(new BasicAuthenticator("Hatim", "xxxx".toCharArray()));
 
+        // config replicator
         Replicator replicator = new Replicator(replConfig);
 
         // Listen to replicator change events.
